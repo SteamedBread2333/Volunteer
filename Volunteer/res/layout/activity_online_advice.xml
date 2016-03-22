@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b" />
+
+    <ListView
+        android:id="@+id/adviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="10dp"
+        android:scrollbars="none" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/AdviceET"
+            style="@style/text_black_14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg_red_round"
+            android:hint="咨询内容"
+            android:padding="5dp"
+            android:textColorHint="@color/light_gray" />
+
+        <TextView
+            android:id="@+id/AdviceSend"
+            style="@style/text_white_14"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textview_bg_red"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发送" />
+    </LinearLayout>
+
+</FrameLayout>

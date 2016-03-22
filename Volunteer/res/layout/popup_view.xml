@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="35dp" >
+
+    <TextView
+        android:id="@+id/titleTV"
+        style="@style/text_gray_16"
+        android:background="@drawable/popup_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:padding="6dp"
+        android:text="活动名称活动名称" />
+
+
+</LinearLayout>

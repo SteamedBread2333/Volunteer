@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        style="@style/text_white_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="我要注册" />
+
+    <LinearLayout
+        android:id="@+id/text_toMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/text_white_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短信验证码" />
+
+        <TextView
+            android:id="@+id/toMobile"
+            style="@style/text_white_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送到***********" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/checknum"
+        style="@style/text_white_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_bg_ff"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="请输入验证码"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/intoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/reg_userName"
+            style="@style/text_white_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textview_bg_ff"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="昵称"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/reg_phonenum"
+            style="@style/text_white_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_bg_ff"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="您的手机号"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/reg_password"
+            style="@style/text_white_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_bg_ff"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="密码"
+            android:padding="10dp"
+            android:password="true"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/reg_sure_password"
+            style="@style/text_white_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_bg_ff"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="确认密码"
+            android:padding="10dp"
+            android:password="true"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/reg_idCard"
+            style="@style/text_white_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_bg_ff"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="身份证号码"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/isReadLin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ViewSwitcher
+            android:id="@+id/isReaded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkbox" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkbox_d" />
+        </ViewSwitcher>
+
+        <TextView
+            android:id="@+id/read"
+            style="@style/text_white_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="同意《上海志愿者用户协议》相关条款" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_bg_yellow"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_bg_yellow"
+            android:gravity="center"
+            android:text="完成注册"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sendagain"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_bg_yellow"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="重新发送"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sendwait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_bg_gray"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="重新发送"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

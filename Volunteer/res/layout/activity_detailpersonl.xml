@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b_e" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/changeUserImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/person_bg" />
+
+                <com.shanghai.volunteer.activity.view.RoundedImageView
+                    android:id="@+id/personlUserImageIV"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/white"
+                    app:border_color="#139266"
+                    app:border_width="0dip"
+                    app:corner_radius="10dip"
+                    app:mutate_background="true"
+                    app:oval="true" />
+
+                <TextView
+                    style="@style/text_black_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    android:text="上传头像" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/nickName"
+                style="@style/text_light_gray_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="昵称" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/t_light_gray" />
+
+            <TextView
+                android:id="@+id/mobile"
+                style="@style/text_light_gray_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="13918347997" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/t_light_gray" />
+
+            <TextView
+                android:id="@+id/IdNo"
+                style="@style/text_light_gray_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="证件号" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/t_light_gray" />
+
+            <TextView
+                android:id="@+id/logout"
+                style="@style/text_white_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/textview_bg_red_round"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="退出" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

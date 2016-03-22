@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="center_horizontal"
+    android:background="#c5c5c5"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/WXShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/umeng_socialize_wechat"
+            android:drawablePadding="2dp"
+            style="@style/text_white_14"
+            android:gravity="center_horizontal"
+            android:text="微信" />
+
+        <TextView
+            android:id="@+id/WXCriShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/umeng_socialize_wxcircle"
+            android:drawablePadding="2dp"
+            style="@style/text_white_14"
+            android:gravity="center_horizontal"
+            android:text="朋友圈" />
+
+        <!-- <TextView
+            android:id="@+id/QzoneShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/umeng_socialize_qzone_on"
+            android:drawablePadding="5dp"
+            style="@style/text_green_14"
+            android:gravity="center_horizontal"
+            android:text="QQ空间" />
+
+        <TextView
+            android:id="@+id/QQShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/umeng_socialize_qq_on"
+            android:drawablePadding="5dp"
+            style="@style/text_green_14"
+            android:gravity="center_horizontal"
+            android:text="QQ好友" /> -->
+    </LinearLayout>
+
+</RelativeLayout>

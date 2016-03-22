@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/listNewsTitleItemTV"
+        style="@style/text_black_14"
+        android:text="11111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/listNewsDetailItemTV"
+        android:layout_marginTop="10dp"
+        style="@style/text_black_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:text="11111"
+        android:maxLines="2" />
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/listNewsTypeItemTV"
+            style="@style/text_gray_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11111"
+            android:layout_gravity="left|center_vertical" />
+
+        <TextView
+            android:id="@+id/listNewsTimeItemTV"
+            style="@style/text_gray_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-12-12 00:00:00"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hidekeybo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b_u" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/getphoto_IM"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/take_photo" />
+
+            <EditText
+                android:id="@+id/getphoto_titleET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textview_bg_blue_white"
+                android:drawablePadding="20dp"
+                android:ems="10"
+                android:hint="随手拍标题"
+                android:padding="10dp"
+                android:textColorHint="@color/gray"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/getphoto_detailET"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textview_bg_blue_white"
+                android:drawablePadding="20dp"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="随手拍详情"
+                android:padding="10dp"
+                android:textColorHint="@color/gray"
+                android:textSize="15dp" />
+            
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_gray_12"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="审核通过就会出现在风采展示中哦"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

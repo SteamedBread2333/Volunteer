@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationbar_search" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.shanghai.volunteer.activity.view.RTPullListView
+            android:id="@+id/obLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00FFFFFF"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+        </com.shanghai.volunteer.activity.view.RTPullListView>
+        
+        <ImageView 
+            android:id="@+id/noNetWorkIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/no_network"
+            />
+    </FrameLayout>
+
+</LinearLayout>

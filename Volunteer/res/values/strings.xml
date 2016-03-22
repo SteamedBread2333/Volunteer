@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">上海志愿者</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="news">新闻</string>
+    <string name="mine">我的</string>
+    <string name="display">风采展示</string>
+    <string name="lt">WO的</string>
+    <string name="unicom">联通专区</string>
+    <string name="zhoubian">周边</string>
+    <string name="more">更多</string>
+    <string name="title">上海志愿者</string>
+    <string name="question">常见问题</string>
+    <string name="personl_center">个人中心</string>
+    <string name="suishoupai">随手拍</string>
+    <string name="suggest">咨询建议</string>
+    <string name="question1">如何成功申请志愿服务贴士？</string>
+    <string name="question2">如何成功申请志愿服务贴士？</string>
+    <string name="question3">如何成功申请志愿服务贴士？</string>
+    <string name="answer1">1、选择项目时，可选择重点推荐中的“热门报名”、“民间公益项目”等，居委会组织的项目报名得到回应的比率比较少。\n2、认真阅读“项目内容”，一些项目在项目内容中对报名方式有详细的说明，比如需要再填写具体的报名表等</string>
+    <string name="answer2">1、选择项目时，可选择重点推荐中的“热门报名”、“民间公益项目”等，居委会组织的项目报名得到回应的比率比较少。\n2、认真阅读“项目内容”，一些项目在项目内容中对报名方式有详细的说明，比如需要再填写具体的报名表等</string>
+    <string name="answer3">1、选择项目时，可选择重点推荐中的“热门报名”、“民间公益项目”等，居委会组织的项目报名得到回应的比率比较少。\n2、认真阅读“项目内容”，一些项目在项目内容中对报名方式有详细的说明，比如需要再填写具体的报名表等</string>
+    <string name="mission1">1.浦东新区高桥镇老年人健康干预服</string>
+    <string name="mission2">2.莘庄望项目志愿者</string>
+    <string name="mission3">3.12月31日跨年客流高峰</string>
+    <string name="mission4">4.失智预防社区行</string>
+    <string name="address">地\u3000址：上海市淮海西路55号26楼AB座上海市志愿者协会</string>
+    <string name="linkman">联系人：潘先生</string>
+    <string name="phonenum">电\u3000话：86-21-52131205</string>
+    <string name="fax">传\u3000真：86-21-52131206</string>
+    <string name="email">EMAIL：zyz@volunteer.sh.cn</string>
+    <string name="contributor">投\u3000稿：news@volunteer.sh.cn</string>
+    <string name="mailplane">邮\u3000编：200030</string>
+    <string name="about_us_title1">APP理念</string>
+    <string name="about_us_title2">APP宗旨与使命</string>
+    <string name="about_us_title3">APP目标</string>
+    <string name="about_us_intro1">奉献与感恩、真诚与务实\n* 真诚地帮助他人会为我们自身带来喜乐；\n* 长期的心灵关怀与自我学习会促进我们内心的成长；\n* 不断地自我成长有助于了解与接纳自己，从而更自然地接纳与关怀他人。</string>
+    <string name="about_us_intro2">遵循 “ 自愿、奉献、团结、互助、进步 ” 的志愿准则；崇尚科学，倡导友爱；通过APP各个窗口传达最新信息动态提供全面便民服务， 成为各个志愿者团体管理体系、宣传公布志愿者活动消息、吸引更多的个人、团体加入志愿者、弘扬互助友爱精神的沟通交流窗口。并以此为基础，通过为公众创造参与的机会，服务于和平与发展的事业，达到公民之间互信互助以实现和谐统一社会的目标。这个窗口不仅对社会的各个团体个人开放，也对世界各国志愿者开放，希望有更多的人能融入志愿者的队伍， 一起用我们的爱心、真情美化上海，美化地球，更好的展现上海这个国际大都市，提高全民综合素质，为全社会物质文明和精神文明建设做出贡献。</string>
+    <string name="about_us_intro3">将APP建设成为新型的一流的志愿活动的服务交流平台。</string>
+    <string name="person_detail">详细信息</string>
+    <string name="person_photo">我的随手拍</string>
+    <string name="person_activity">我的活动</string>
+    <string name="signin_record">签到记录</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_loading">Loading</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="permlab_myService">1234</string>
+    <string name="get_more">获取更多</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="updating">最近更新：</string>
+    <string name="powerby">Powered by 中国联合网络通信有限公司上海市分公司</string>
+    <string name="article">\n\n\u3000\u3000热烈欢迎注册用户登录上海志愿者网冲浪遨游。\n\n
+
+ \u3000\u3000上海志愿者网在向注册用户提供各项服务时，将遵照下列提示、条件或条款；同时，在使用上海志愿者网提供的各项服务时，请注册用户务必遵守下列适用于各项服务的规则、指引、政策、条件或条款。上海志愿者网保留对本法律申明中所公布的规则、指引、政策、条件或条款进行检讨、补充、修正与更新的权利。如遇上述情况，上海志愿者网将及时在本网站上进行公示更新。上海志愿者网谨此提示注册用户认真仔细阅读本法律申明的各项条款，并及时关注本法律申明的任何变化。\n\n
+
+一、版权保护\n\n
+
+  \u3000\u3000上海志愿者网上刊载的所有内容，包括但不限于文字报导、图片、声音、录像、图表、标志、标识、广告、商标、商号、域名、软件、程序、版面设计、专栏目录与名称、内容分类标准以及为注册用户提供的任何或所有信息，均受《中华人民共和国著作权法》、《中华人民共和国商标法》、《中华人民共和国专利法》等法律法规中有关著作权、商标权、专利权或其它财产所有权法律的保护。\n\n
+
+   \u3000\u3000 使用者将上海志愿者网提供的内容与服务用于非商业用途、非盈利、非广告目的而纯作个人消费时，应遵守著作权法以及其他相关法律的规定，不得侵犯上海志愿者网或相关权利人的权利。\n\n
+
+    \u3000\u3000使用者如需转载、复制、引用上海志愿者网的局部或全部内容，请注明作者及文章出处"上海志愿者网”。\n\n
+
+    \u3000\u3000未经上海志愿者网的明确书面特别授权，不得在非上海志愿者网所属的服务器上作镜像，否则以侵权论，依法追究法律责任。\n\n
+
+二、隐私保护\n\n
+
+\u3000\u3000上海志愿者网承认、尊重并保护注册用户向上海志愿者网提供的任何或所有个人信息以及注册用户根据中华人民共和国民事法律规定享有的隐私权。当注册用户使用上海志愿者网的各项服务时，上海志愿者网将根据本网站其时公布并不断修正之保护个人信息及隐私权政策处理注册用户提供的各项个人资料及其中所含的各项私密性信息。\n\n
+
+\u3000\u3000注册用户在上海志愿者网的论坛、空间或留言板上自愿透露的个人资料可能经由网络传播被其他人士收集和使用，此类行为非网站所能控制，若造成注册用户的任何困扰，本网站不对此负责。\n\n
+
+三、免责条款\n\n
+
+  \u3000\u3000 除上海志愿者网注明之服务条款外，任何因使用本网站或与本网站连接的任何其他网站或网页而引致的意外、疏忽、合约毁坏、诽谤、感染电脑病毒、版权或其他知识产权纠纷及其造成的损失，上海志愿者网概不负责，不承担任何法律责任。特别指出的是：本网提供的志愿服务项目系各级志愿者组织提供，并无附带任何形式的明示的或暗示保证，包括任何关于材料无侵犯知识产权或适合作某一特定用途的保证。在任何情况下，对于因使用这些材料或无法使用这些材料而导致的任何损害赔偿（包括但不限于利润损失、业务中断及信息损失等方面的损失赔偿），上海志愿者网无须承担法律责任,即使上海志愿者网曾经被告知有可能出现该等损害赔偿。\n\n
+
+    \u3000\u3000上海志愿者网所提供的所有资料是按当时的现状提供的，在公布时已尽谨慎义务。若遇有任何资料更改，本网站无须另行通知，也不对任何人士获取的上述资料的准确性、有效性、合时性或完整性作任何保证，尤其不就本网站提及服务的应有质量或功能承担任何担保责任。通过上海志愿者网的服务项目完全由志愿服务组织负全部责任；若有任何瑕疵或担保责任，均与本网站无关。\n\n
+
+    \u3000\u3000上海志愿者网及其指定机构可以为任何非商业目的，免费拷贝、透露、分发、合并或使用通讯信息和所有的数据、图形、声音、文本以及其他资料。本网禁止注册用户发送或转送任何非法的具有威胁、中伤、诽谤、淫秽、色情内容或其他违反法律的资料。对于这些资料，注册用户应承担任何因此有可能产生的民事侵权或刑事法律责任，该等法律责任与上海志愿者网无关。\n\n
+
+\u3000\u3000本法律申明与注册用户协议如有冲突，以本法律申明为准。注册用户协议的特别条件与条款，应与本法律申明一起理解与使用。本法律申明的任何或所有条款均是注册用户协议不可分割的组成部分。本法律申明的制定、执行和解释及争议的解决均应适用中华人民共和国法律。双方因使用本网站所产生的争议，协商不成的，任何一方可以向本网站所在地人民法院提起诉讼。\n\n</string>
+
+</resources>

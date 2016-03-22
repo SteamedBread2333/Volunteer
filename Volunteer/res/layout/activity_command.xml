@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/morelight_blue"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b_p" />
+
+    <ListView
+        android:id="@+id/CommandLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/CommandET"
+            style="@style/text_black_14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/textview_bg_blue_white"
+            android:hint="评论内容"
+            android:padding="5dp"
+            android:textColorHint="@color/light_gray" />
+
+        <TextView
+            android:id="@+id/CommandSend"
+            style="@style/text_white_14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/textview_bg_red_round"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="发送" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_marginLeft="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.shanghai.volunteer.activity.view.RoundedImageView
+            android:id="@+id/adviceMyImageIV"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aboutus"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="0dip"
+            app:mutate_background="true"
+            app:oval="true" />
+
+        <TextView
+            android:id="@+id/adviceQTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/adviceMyImageIV"
+            android:background="@drawable/box_right_arrow"
+            android:gravity="right"
+            android:minHeight="46dp"
+            android:minWidth="150dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/adviceRelpayLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.shanghai.volunteer.activity.view.RoundedImageView
+            android:id="@+id/adviceAdminImageIV"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aboutus"
+            app:border_color="#139266"
+            app:border_width="0dip"
+            app:corner_radius="0dip"
+            app:mutate_background="true"
+            app:oval="true" />
+
+        <TextView
+            android:id="@+id/adviceFTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/adviceAdminImageIV"
+            android:background="@drawable/box_left_arrow"
+            android:minHeight="46dp"
+            android:minWidth="150dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+</LinearLayout>

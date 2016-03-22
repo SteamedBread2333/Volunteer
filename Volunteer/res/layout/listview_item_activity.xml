@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/activityTitleTV"
+            style="@style/text_black_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.94"
+            android:singleLine="true"
+            android:text="测试11" />
+
+        <TextView
+            android:id="@+id/activityIsComplete"
+            style="@style/text_white_14"
+            android:layout_width="55dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/textview_bg_green"
+            android:text="执行中" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activityIDetailTV"
+        style="@style/text_black_12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:text="测试11测试11测试11测试11测试11测试11测试11测试11"
+        android:maxLines="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/activityUnitTV"
+            style="@style/text_black_12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上海文明办"
+            android:maxLines="2" />
+
+        <TextView
+            android:id="@+id/activityTimeTV"
+            style="@style/text_gray_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-10-12 00:00:00" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b_p" />
+
+    <GridView
+        android:id="@+id/pull_refresh_displaylist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:columnWidth="100dp"
+        android:gravity="fill"
+        android:horizontalSpacing="1dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp" />
+
+    <LinearLayout
+        android:id="@+id/by_Linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#00ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/bytime_on"
+                style="@style/text_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/textview_bg_blue"
+                android:padding="5dp"
+                android:text="时间顺序" />
+
+            <TextView
+                android:id="@+id/bytime_off"
+                style="@style/text_blue_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/textview_bg_blue_white"
+                android:padding="5dp"
+                android:text="时间顺序"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/byhot_on"
+                style="@style/text_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/textview_bg_blue"
+                android:padding="5dp"
+                android:text="热度顺序"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/byhot_off"
+                style="@style/text_blue_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/textview_bg_blue_white"
+                android:padding="5dp"
+                android:text="热度顺序" />
+        </FrameLayout>
+    </LinearLayout>
+	<ProgressBar 
+        android:id="@+id/disPlayFooterLoadingPbar"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="bottom"
+    	style="?android:attr/progressBarStyleSmallInverse"
+        />
+	<ImageView 
+            android:id="@+id/noPhotoDisplayIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/no_photo_display"
+            />
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/navigationvbar_b_p" />
+
+    <com.shanghai.volunteer.other.parallax.ParallaxScrollView
+        android:id="@+id/AboutUsSV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:zoomRatio="1.4" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/white" />
+
+            <TextView
+                style="@style/text_black_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/about_us_title1" />
+
+            <TextView
+                style="@style/text_gray_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/about_us_intro1" />
+
+            <TextView
+                style="@style/text_black_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/about_us_title2" />
+
+            <TextView
+                style="@style/text_gray_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/about_us_intro2" />
+
+            <TextView
+                style="@style/text_black_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="email"
+                android:text="@string/about_us_title3" />
+
+            <TextView
+                style="@style/text_gray_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/about_us_intro3" />
+            <TextView
+                style="@style/text_gray_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/powerby" />
+        </LinearLayout>
+    </com.shanghai.volunteer.other.parallax.ParallaxScrollView>
+
+</LinearLayout>

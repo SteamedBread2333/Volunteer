@@ -1,0 +1,185 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- 自定义均分宽样式 -->
+    <style name="AverageWidthMacthLayoutStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Average30WidthMacthLayoutStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+    </style>
+    <style name="AverageWidthMacthTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+	<style name="text_black_16" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+	<style name="text_black_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_black_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="text_blue_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/blue_title</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="text_white_20" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_white_22" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_gray_25" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="text_gray_20" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+	<style name="text_gray_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="text_light_gray_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="text_light_gray_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_gray_15" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="text_gray_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+     <style name="text_gray_16" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+     <style name="text_gray_17" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="text_gray_10" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="text_gray_9" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+    <style name="text_gray_11" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+     <style name="text_lowgray_15" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#aaaaaa</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="text_red_15" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="text_white_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_white_16" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="text_white_15" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="text_white_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_white_18" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_green_16" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_green_12" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_green_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_green_22" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_green_18" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="text_mlblue_14" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/morelight_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- 自定dialog样式 -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/dialog_contentbg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="dialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+</resources>
